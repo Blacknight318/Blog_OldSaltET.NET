@@ -3,7 +3,7 @@
 Let's try a code quote, this one is from my sensor using an Adafruit Trinket M0 and and DHT22, This will wait for a poll command and try to pull the data from the DHT22, if not it'll loop around.
  
  ```python
- import board
+import board
 import adafruit_dht
 import time
 
