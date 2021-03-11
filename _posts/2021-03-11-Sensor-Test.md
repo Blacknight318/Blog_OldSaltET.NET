@@ -3,7 +3,7 @@
 ## The Parts
 1. [Trinket M0](https://www.amazon.com/Adafruit-Trinket-M0-CircuitPython-Arduino/dp/B07MLWKK6V)
 2. [DHT22](https://www.amazon.com/dp/B07XBVR532/ref=cm_sw_r_em_apa_fabc_NRTX4BSZW5RQVF3P930T?_encoding=UTF8&psc=1)
-    * Note the above DHT22 has an adapter board, if you use a regular DHT22 you will need a pull up resistor between data and VCC and a filter cap between data and ground.
+    * Note the above DHT22 has an adapter board, if you use a regular DHT22 you will need a pull up resistor(4.7k or 10k) between data and VCC and a filter capitor(0.1uF or 0.01uF) between data and ground.
 3. Micro USB cable for Trinket M0 to connect to computer or Raspberry Pi
 
 ## The Sensor Code
