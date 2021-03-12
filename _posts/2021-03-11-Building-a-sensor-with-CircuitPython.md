@@ -1,5 +1,3 @@
-# Building a sensor w/CircuitPython
-
 ## The Parts
 1. [Trinket M0](https://www.amazon.com/Adafruit-Trinket-M0-CircuitPython-Arduino/dp/B07MLWKK6V)
 2. [DHT22](https://www.amazon.com/dp/B07XBVR532/ref=cm_sw_r_em_apa_fabc_NRTX4BSZW5RQVF3P930T?_encoding=UTF8&psc=1)
