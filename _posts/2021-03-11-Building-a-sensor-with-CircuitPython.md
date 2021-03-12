@@ -1,3 +1,6 @@
+## Why build this?
+This project started as a way to monitor my home air and see just how much the temperature and humidity fluctuated during the day, and how well the Nest thermostat maintained everything.  So after connecting it to a feed on [Adafruit IO](https://io.adafruit.com) and creating a dashboard it was ready to go!
+
 ## The Parts
 1. [Trinket M0](https://www.amazon.com/Adafruit-Trinket-M0-CircuitPython-Arduino/dp/B07MLWKK6V)
 2. [DHT22](https://www.amazon.com/dp/B07XBVR532/ref=cm_sw_r_em_apa_fabc_NRTX4BSZW5RQVF3P930T?_encoding=UTF8&psc=1)
@@ -35,7 +38,7 @@ while True:
 ```
 Now that we have the code copied you can open a serial connection with something like Mu Editor and send the "poll" command, this should return the temp(in degrees Farenheit) and the humidity percentage. _Note the 1 second delay, this is to allow closing the send port and opening for receive on the computer side._
 
-## Sample code to read the sensor for Python
+## Some sample code to read the sensor with Python
 ```python
 import time
 import serial # using pyserial for this instance
@@ -55,3 +58,6 @@ def pull_data():
         print("Failed to connect over USB {} at {}".format(com, time.ctime()))
         return None
 ```
+
+## Where to from here?
+There's still more yet to do with this project, create a class to read out the sensor and put up the code used to send data to the feed/dashboard on [Adafruit IO](https://io.adafruit.com). we'll also be working on a single board the encompasses the sensor and a version of the ATSAMD21 that is compatible with the above mentioned CirctuiPython libraries, and hopefully a 3D printer case as well.  This comes after helping a coworker use this same setup with their Raspberry PI to monitor their home network cabinet.  Stay tuned for more updates!
