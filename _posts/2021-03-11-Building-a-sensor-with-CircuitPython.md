@@ -60,4 +60,4 @@ def pull_data():
 ```
 
 ## Where to from here?
-There's still more yet to do with this project, create a class to read out the sensor and put up the code used to send data to the feed/dashboard on [Adafruit IO](https://io.adafruit.com). we'll also be working on a single board the encompasses the sensor and a version of the ATSAMD21 that is compatible with the above mentioned CirctuiPython libraries, and hopefully a 3D printer case as well.  This comes after helping a coworker use this same setup with their Raspberry PI to monitor their home network cabinet.  Stay tuned for more updates!
+There's still more yet to do with this project, create a class to read out the sensor and put up the code used to send data to the feed/dashboard on [Adafruit IO](https://io.adafruit.com). we'll also be working on a single board the encompasses the sensor and a version of the ATSAMD21 that is compatible with the above mentioned [CirctuiPython](https://circuitpython.org/) libraries, and hopefully a 3D printer case as well.  This comes after helping a coworker use this same setup with their Raspberry PI to monitor their home network cabinet.  Stay tuned for more updates!
